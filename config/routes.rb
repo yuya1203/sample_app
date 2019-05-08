@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :password_resets, onlu: [:new, :create, :edit, :update]
   resources :account_activations, only: [:edit]
 
   get '/login', to: 'sessions#new'
