@@ -41,3 +41,5 @@ $ rails server
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
+
+AWSを使った本番環境への画像アップロードは実装していない
